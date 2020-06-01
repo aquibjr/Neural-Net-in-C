@@ -50,6 +50,7 @@ int main(int argc, char** argv){
 	
 	if(argc != 15){
 	   printf("Please enter the correct number of variables in the correct format");
+	   exit(0);
 	}
 
     parameters* param = (parameters*)malloc(sizeof(parameters));
